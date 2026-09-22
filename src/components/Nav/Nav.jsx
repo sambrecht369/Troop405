@@ -2,7 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './Nav.css';
 import logo from '../../assets/troop_405.png';
-import {auth} from '../../firebase/init';
+import { auth, db } from '../../firebase/init';
 import { 
     createUserWithEmailAndPassword,
     signInWithEmailAndPassword,
@@ -17,6 +17,10 @@ function Nav() {
     const [user, setUser] = React.useState({});
     const [loading, setLoading] = React.useState(true);
     
+  
+
+
+
     React.useEffect(() => {
         onAuthStateChanged(auth, (user) => {
             setLoading(false);

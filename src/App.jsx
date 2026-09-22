@@ -2,8 +2,7 @@
 import Footer from './components/Footer/Footer.jsx';
 import Nav from './components/Nav/Nav.jsx';
 import Home from './pages/Home/Home.jsx';
-import {auth} from './firebase/init.js'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import Contact from './components/Contact/contact.jsx';
 
 
 function App() {
@@ -13,6 +12,7 @@ function App() {
   return (
     <div className="App">
       <Nav />
+      <Contact />
       <Home />
       <Footer />
     </div>

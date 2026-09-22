@@ -23,7 +23,7 @@
 
 .nav__list ul{
    display: flex;
-   gap: 50px;
+   gap: 25px;
 }
 .nav__list ul:hover {
    cursor: pointer;
