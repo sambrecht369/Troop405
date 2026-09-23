@@ -41,6 +41,7 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.55);
     visibility: visible;
     transition: visibility;
+    position: fixed;
 }
 .modal--open .modal-about {
     transform: translateX(0%);
